@@ -2,12 +2,6 @@ header.js
 
 utility.js
 
-structure.js
-structure_const.js
+api/*.js
 
-rotate.js
-
-TileEntityRandomize.js
-TileEntityFiller.js
-DefaultTileEntityFiller.js
-APOFiller.js
+fillers/*.js

@@ -1,23 +1,3 @@
-/**
-    "TE_IN_JSON":{
-        "type":"apo_filler",
-        "items":[
-            {
-                "id": 5,
-                "meta": 1,
-                "rarity": 1,
-                "count": 4
-            },
-            {
-                "id": "my_item",
-                "data": 0,
-                "rarity": 0.65,
-                "count": { "min": 1,  "max": 9 }
-            }
-        ]
-    }
- */
-
 function APOFiller(items){
     this.items = items || [];
 }; TileEntityFiller.register("apo_filler", APOFiller);

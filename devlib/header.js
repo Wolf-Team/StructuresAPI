@@ -54,3 +54,4 @@ var StructuresDB = {
 	versionSaver:3
 }
 var Random = java.util.Random;
+var SUPPORT_NETWORK = getCoreAPILevel() > 10;
